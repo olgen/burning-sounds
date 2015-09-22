@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C02F5631BB1B68100DABB27 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C02F5621BB1B68100DABB27 /* SongTableViewCell.swift */; };
+		4C34E7C61BB1A5B5006CF781 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C34E7C51BB1A5B5006CF781 /* AppDelegate.swift */; };
+		4C34E7CB1BB1A5B5006CF781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C34E7C91BB1A5B5006CF781 /* Main.storyboard */; };
+		4C34E7CD1BB1A5B5006CF781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C34E7CC1BB1A5B5006CF781 /* Assets.xcassets */; };
+		4C34E7D01BB1A5B5006CF781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C34E7CE1BB1A5B5006CF781 /* LaunchScreen.storyboard */; };
+		4C34E7D81BB1A6A7006CF781 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C34E7D71BB1A6A7006CF781 /* Song.swift */; };
+		4CB65BE11BB1AB80009445FF /* SongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65BE01BB1AB80009445FF /* SongTableViewController.swift */; };
+		FD3F1F91E9470B6B819C9BB0 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18827D106F0005E86083FC56 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18827D106F0005E86083FC56 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		316EBC24B56FDA056DE5F8F4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4C02F5621BB1B68100DABB27 /* SongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		4C34E7C21BB1A5B5006CF781 /* Burning Sounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Burning Sounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C34E7C51BB1A5B5006CF781 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C34E7CA1BB1A5B5006CF781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C34E7CC1BB1A5B5006CF781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C34E7CF1BB1A5B5006CF781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C34E7D11BB1A5B5006CF781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C34E7D71BB1A6A7006CF781 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		4CB65BE01BB1AB80009445FF /* SongTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewController.swift; sourceTree = "<group>"; };
+		8180346A6E26A48B4093FCED /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C34E7BF1BB1A5B5006CF781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3F1F91E9470B6B819C9BB0 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A12781A2FE6FBBA1D88DACC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				316EBC24B56FDA056DE5F8F4 /* Pods.debug.xcconfig */,
+				8180346A6E26A48B4093FCED /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C34E7B91BB1A5B5006CF781 = {
+			isa = PBXGroup;
+			children = (
+				4C34E7C41BB1A5B5006CF781 /* Burning Sounds */,
+				4C34E7C31BB1A5B5006CF781 /* Products */,
+				0A12781A2FE6FBBA1D88DACC /* Pods */,
+				DD96BFD1985D328D062C0B20 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C34E7C31BB1A5B5006CF781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C34E7C21BB1A5B5006CF781 /* Burning Sounds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C34E7C41BB1A5B5006CF781 /* Burning Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4C34E7D91BB1A719006CF781 /* Core */,
+				4C34E7C51BB1A5B5006CF781 /* AppDelegate.swift */,
+				4C34E7C91BB1A5B5006CF781 /* Main.storyboard */,
+				4C02F5621BB1B68100DABB27 /* SongTableViewCell.swift */,
+				4CB65BE01BB1AB80009445FF /* SongTableViewController.swift */,
+				4C34E7CC1BB1A5B5006CF781 /* Assets.xcassets */,
+				4C34E7CE1BB1A5B5006CF781 /* LaunchScreen.storyboard */,
+				4C34E7D11BB1A5B5006CF781 /* Info.plist */,
+			);
+			path = "Burning Sounds";
+			sourceTree = "<group>";
+		};
+		4C34E7D91BB1A719006CF781 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4C34E7D71BB1A6A7006CF781 /* Song.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		DD96BFD1985D328D062C0B20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18827D106F0005E86083FC56 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C34E7C11BB1A5B5006CF781 /* Burning Sounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C34E7D41BB1A5B5006CF781 /* Build configuration list for PBXNativeTarget "Burning Sounds" */;
+			buildPhases = (
+				A0771F1CE23240CA3EC3D5C9 /* Check Pods Manifest.lock */,
+				4C34E7BE1BB1A5B5006CF781 /* Sources */,
+				4C34E7BF1BB1A5B5006CF781 /* Frameworks */,
+				4C34E7C01BB1A5B5006CF781 /* Resources */,
+				74D3591ECDBA8E74B85494E3 /* Embed Pods Frameworks */,
+				32BD9E2D61760C64AB8774CC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Burning Sounds";
+			productName = "Burning Sounds";
+			productReference = 4C34E7C21BB1A5B5006CF781 /* Burning Sounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C34E7BA1BB1A5B5006CF781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = olgen;
+				TargetAttributes = {
+					4C34E7C11BB1A5B5006CF781 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 4C34E7BD1BB1A5B5006CF781 /* Build configuration list for PBXProject "Burning Sounds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C34E7B91BB1A5B5006CF781;
+			productRefGroup = 4C34E7C31BB1A5B5006CF781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C34E7C11BB1A5B5006CF781 /* Burning Sounds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C34E7C01BB1A5B5006CF781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C34E7D01BB1A5B5006CF781 /* LaunchScreen.storyboard in Resources */,
+				4C34E7CD1BB1A5B5006CF781 /* Assets.xcassets in Resources */,
+				4C34E7CB1BB1A5B5006CF781 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32BD9E2D61760C64AB8774CC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74D3591ECDBA8E74B85494E3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0771F1CE23240CA3EC3D5C9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C34E7BE1BB1A5B5006CF781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C02F5631BB1B68100DABB27 /* SongTableViewCell.swift in Sources */,
+				4C34E7D81BB1A6A7006CF781 /* Song.swift in Sources */,
+				4CB65BE11BB1AB80009445FF /* SongTableViewController.swift in Sources */,
+				4C34E7C61BB1A5B5006CF781 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C34E7C91BB1A5B5006CF781 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C34E7CA1BB1A5B5006CF781 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C34E7CE1BB1A5B5006CF781 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C34E7CF1BB1A5B5006CF781 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C34E7D21BB1A5B5006CF781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C34E7D31BB1A5B5006CF781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C34E7D51BB1A5B5006CF781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316EBC24B56FDA056DE5F8F4 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Burning Sounds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.olgen.Burning-Sounds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C34E7D61BB1A5B5006CF781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8180346A6E26A48B4093FCED /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Burning Sounds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.olgen.Burning-Sounds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C34E7BD1BB1A5B5006CF781 /* Build configuration list for PBXProject "Burning Sounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C34E7D21BB1A5B5006CF781 /* Debug */,
+				4C34E7D31BB1A5B5006CF781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C34E7D41BB1A5B5006CF781 /* Build configuration list for PBXNativeTarget "Burning Sounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C34E7D51BB1A5B5006CF781 /* Debug */,
+				4C34E7D61BB1A5B5006CF781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C34E7BA1BB1A5B5006CF781 /* Project object */;
+}

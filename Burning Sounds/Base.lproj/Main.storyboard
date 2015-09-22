@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5wF-cb-EXv">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Song Table View Controller-->
+        <scene sceneID="1ub-yz-Nto">
+            <objects>
+                <tableViewController id="5wF-cb-EXv" customClass="SongTableViewController" customModule="Burning_Sounds" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="VFb-4j-Bbr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SongCell" id="E43-JB-xzV" customClass="SongTableViewCell" customModule="Burning_Sounds" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="E43-JB-xzV" id="dnL-wf-OHQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UC9-qv-kjn">
+                                            <rect key="frame" x="0.0" y="-7" width="600" height="61"/>
+                                            <animations/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bkc-MT-Rth">
+                                            <rect key="frame" x="8" y="0.0" width="584" height="43.5"/>
+                                            <animations/>
+                                            <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="0.44893772482014388" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <animations/>
+                                    <constraints>
+                                        <constraint firstItem="Bkc-MT-Rth" firstAttribute="top" secondItem="dnL-wf-OHQ" secondAttribute="topMargin" constant="-8" id="6rC-Ks-aiG"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Bkc-MT-Rth" secondAttribute="trailing" id="I7s-WS-W2y"/>
+                                        <constraint firstItem="UC9-qv-kjn" firstAttribute="leading" secondItem="dnL-wf-OHQ" secondAttribute="leadingMargin" constant="-8" id="IlA-NK-qMZ"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="Bkc-MT-Rth" secondAttribute="leading" id="PTx-YM-A3U"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="UC9-qv-kjn" secondAttribute="trailing" constant="-8" id="YkU-ue-W53"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="UC9-qv-kjn" secondAttribute="bottom" constant="-18.5" id="af7-Y4-wOx"/>
+                                        <constraint firstItem="UC9-qv-kjn" firstAttribute="top" secondItem="dnL-wf-OHQ" secondAttribute="topMargin" constant="-15" id="d3f-d3-beQ"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <animations/>
+                                <connections>
+                                    <outlet property="songImageView" destination="UC9-qv-kjn" id="7v3-BH-nr4"/>
+                                    <outlet property="titleLabel" destination="Bkc-MT-Rth" id="u5f-SM-Lju"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="5wF-cb-EXv" id="xVE-Xc-hjW"/>
+                            <outlet property="delegate" destination="5wF-cb-EXv" id="idG-hI-6OP"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nV9-Nv-FdI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="457" y="442"/>
+        </scene>
+    </scenes>
+</document>
