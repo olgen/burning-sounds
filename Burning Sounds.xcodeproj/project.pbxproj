@@ -13,7 +13,9 @@
 		4C34E7CD1BB1A5B5006CF781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C34E7CC1BB1A5B5006CF781 /* Assets.xcassets */; };
 		4C34E7D01BB1A5B5006CF781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C34E7CE1BB1A5B5006CF781 /* LaunchScreen.storyboard */; };
 		4C34E7D81BB1A6A7006CF781 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C34E7D71BB1A6A7006CF781 /* Song.swift */; };
-		4C80FBDF1BB1E2D70064AA9A /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C80FBDE1BB1E2D70064AA9A /* PlayerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4C5EB1DA1BB2FB930020CFAB /* SongsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5EB1D91BB2FB930020CFAB /* SongsManager.swift */; };
+		4C5EB1DC1BB30C730020CFAB /* songs_pretty.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C5EB1DB1BB30C730020CFAB /* songs_pretty.json */; };
+		4C80FBDF1BB1E2D70064AA9A /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C80FBDE1BB1E2D70064AA9A /* PlayerViewController.swift */; };
 		4C80FBE11BB1E38E0064AA9A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C80FBE01BB1E38E0064AA9A /* AVFoundation.framework */; };
 		4CB65BE11BB1AB80009445FF /* SongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB65BE01BB1AB80009445FF /* SongTableViewController.swift */; };
 		FD3F1F91E9470B6B819C9BB0 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18827D106F0005E86083FC56 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -30,6 +32,8 @@
 		4C34E7CF1BB1A5B5006CF781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C34E7D11BB1A5B5006CF781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C34E7D71BB1A6A7006CF781 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		4C5EB1D91BB2FB930020CFAB /* SongsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsManager.swift; sourceTree = "<group>"; };
+		4C5EB1DB1BB30C730020CFAB /* songs_pretty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = songs_pretty.json; sourceTree = "<group>"; };
 		4C80FBDE1BB1E2D70064AA9A /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		4C80FBE01BB1E38E0064AA9A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4CB65BE01BB1AB80009445FF /* SongTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 		4C34E7C41BB1A5B5006CF781 /* Burning Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				4C5EB1DB1BB30C730020CFAB /* songs_pretty.json */,
 				4C80FBDD1BB1E2A20064AA9A /* VC */,
 				4C34E7D91BB1A719006CF781 /* Core */,
 				4C34E7C51BB1A5B5006CF781 /* AppDelegate.swift */,
@@ -94,6 +99,7 @@
 		4C34E7D91BB1A719006CF781 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				4C5EB1D91BB2FB930020CFAB /* SongsManager.swift */,
 				4C34E7D71BB1A6A7006CF781 /* Song.swift */,
 			);
 			name = Core;
@@ -180,6 +186,7 @@
 			files = (
 				4C34E7D01BB1A5B5006CF781 /* LaunchScreen.storyboard in Resources */,
 				4C34E7CD1BB1A5B5006CF781 /* Assets.xcassets in Resources */,
+				4C5EB1DC1BB30C730020CFAB /* songs_pretty.json in Resources */,
 				4C34E7CB1BB1A5B5006CF781 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +250,7 @@
 				4C34E7D81BB1A6A7006CF781 /* Song.swift in Sources */,
 				4CB65BE11BB1AB80009445FF /* SongTableViewController.swift in Sources */,
 				4C34E7C61BB1A5B5006CF781 /* AppDelegate.swift in Sources */,
+				4C5EB1DA1BB2FB930020CFAB /* SongsManager.swift in Sources */,
 				4C80FBDF1BB1E2D70064AA9A /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
