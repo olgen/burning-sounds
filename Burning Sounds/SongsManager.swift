@@ -17,18 +17,17 @@ class SongsManager {
         return Singleton.instance
     }
 
-    // TODO: load from server
-    let songs = [
-        Song(stream: "https://api.soundcloud.com/tracks/40412857/stream",
-        title: "Katy Perry - Wide Awake",
-        coverImageUrl: "https://i1.sndcdn.com/artworks-000020270888-2y67l0-large.jpg")
-    ]
-
     func allSongs() -> [Song]{
+        //TODO: add caching
         let jsonData = loadJson()
         let json = JSON(data: jsonData!)
-        print("got json: \(json)")
-        return self.songs
+
+        var songs = [Song]()
+
+        for (_, songObj):(String, JSON) in json {
+            songs.append(mapSong(songObj))
+        }
+        return songs
     }
 
     func loadJson() -> NSData? {
@@ -39,6 +38,13 @@ class SongsManager {
             data = d
         }
         return data
+    }
+
+    func mapSong(json: JSON) -> Song {
+        return Song(stream: json["stream_url"].string!,
+            title: json["title"].string!,
+            coverImageUrl: json["artwork_url"].string
+        )
     }
 
 }
